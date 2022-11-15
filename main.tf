@@ -12,5 +12,5 @@ resource "aws_instance" "app_server" {
   }
 }
 output "server_name" {
-   value = random_pet.server_name
+   value = random_pet.server_name.id
 }
